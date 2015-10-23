@@ -1,0 +1,35 @@
+/* Week 3 Challenge 1 CSS */
+
+.box {
+	background-color: black;
+	width: 150px;
+	height: 150px;
+}
+
+.row-1 .box {
+	display: inline-block;
+	margin-right: 16px;	
+}
+
+.row-2 {
+	position: relative;
+	margin-top: 16px;
+	height: 170px;
+}
+
+.row-2 .box {
+	position: absolute;
+}
+
+.row-2 .box-2 {
+	left: 170px;
+}
+
+.row-2 .box-3 {
+	left: 340px;
+}
+
+.row-3 .box {
+	float: left;
+	margin-right: 20px;
+}
